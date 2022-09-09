@@ -277,27 +277,6 @@ z-index: -1;
         margin: 100px;
     }
 
-    /* Bar info */
-    .barInfo {
-        width: 216px;
-        height: 469px;
-        margin-top: -50px;
-    }
-
-    .barInfo .line {
-        width: 60px;
-        height: 3px;
-        margin-left: 40px;
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
-
-    .barInfo img .barInfo .info-mobile {
-        display: flex;
-    }
-
-    /* End */
-
     /* Daftar Footer */
     .daftar-footer {
         height: auto;
