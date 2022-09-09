@@ -1,0 +1,369 @@
+/* Khula fonts */
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@400;600;700&display=swap');
+
+
+body {
+    font-family: 'Khula', sans-serif;
+    overflow-x: hidden;
+    background-color: #F7F7F9;
+}
+
+.btn {
+    font-family: 'Khula', sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 20px 120px;
+    background-color: transparent !important;
+    border-bottom: 0.1px solid rgb(228, 227, 227);
+}
+
+.navbar img {
+    width: 41px;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+.navbar-nav a {
+    margin-right: 20px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.navbar-nav a:hover {
+    color: rgb(26, 26, 26);
+}
+
+.navbar-nav .btn {
+    padding-top: 8px;
+    background-color: #20388C !important;
+    border-color: #20388C;
+    border-radius: 60px;
+    margin-left: 20px;
+    width: 107px;
+    height: 38px;
+    font-family: 'Khula', sans-serif;
+}
+
+/* End */
+
+/* Teacher BG */
+
+.teacher2 {
+    position: absolute;
+width: 56px;
+height: 56px;
+left: 1080px;
+top: 258.96px;
+}
+
+.teacher3 {
+    position: absolute;
+width: 56px;
+height: 56px;
+left: 150px;
+top: 700px;
+}
+
+.teacher4 {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 1120px;
+    top: 1200px;
+}
+
+.teacher5 {
+    position: absolute;
+width: 56px;
+height: 56px;
+left: 160.62px;
+top: 1600.36px;
+}
+/* End */
+
+/* Card */
+#card-section {
+    margin-bottom: 500px;
+}
+
+.card-section h1 {
+    margin: 100px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    text-align: center;
+    width: 280px;
+    margin-bottom: 100px;
+}
+
+.card img {
+    width: 180px;
+    margin: 20px auto;
+}
+/* End */
+
+/* Daftar footer */
+.daftar-footer {
+    height: 128px;
+    background-color: #20388C;
+    position: relative;
+}
+
+.daftar-footer .btn {
+    padding-top: 8px;
+    background-color: white !important;
+    border-color: #20388C;
+    color: #20388C;
+    border-radius: 60px;
+    margin-left: 20px;
+    width: 107px;
+    height: 38px;
+    font-family: 'Khula', sans-serif;
+    z-index: 1;
+}
+
+.daftar-footer img {
+    position: absolute;
+    left: 330px;
+    top: -483px;
+    width: 60rem;
+}
+
+/* End */
+
+/* Alamat */
+.alamat {
+    height: 388px;
+    padding: 70px 0;
+}
+
+.alamat img {
+    width: 65px;
+}
+
+
+.alamat a {
+    text-decoration: none;
+    color: black;
+}
+
+.alamat .CTA-page {
+    justify-content: end;
+    margin-top: -100px;
+}
+
+/* End */
+
+
+/* Footer */
+footer {
+    height: 54.5px;
+    background-color: #20388C;
+    padding: 14px 0;
+}
+
+footer .social-media {
+    margin-left: 95px;
+}
+
+footer img {
+    margin-left: 10px;
+}
+
+/* End */
+
+/* scroll top */
+.scrollup {
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    background-color: rgb(107, 90, 210);
+    opacity: 0.8;
+    padding: 6px 6px 0 6px;
+    border-radius: 0.4rem;
+    z-index: 10;
+    transition: 0.4s;
+}
+
+.scrollup:hover {
+    background-color: rgb(88, 72, 173);
+}
+
+.scrollup_icon {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.show-scroll {
+    bottom: 5rem;
+}
+
+/* End */
+
+
+/* Break point */
+/* Tablet */
+@media (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {}
+
+/* End */
+
+/* phone */
+@media (min-width: 320px) and (max-width: 767px) {
+
+    /* Navbar */
+    .navbar {
+        padding: 10px 5px;
+    }
+
+    .navbar-nav {
+        padding: 10px;
+    }
+
+    .navbar-nav a {
+        border-bottom: 0.1px solid rgb(228, 227, 227);
+    }
+
+    .navbar-nav .btn {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    /* End */
+
+    /* Teacher BG */
+.teacher2 {
+left: 350px;
+z-index: -1;
+}
+
+.teacher3 {
+left: 120px;
+top: 1627px;
+z-index: -1;
+}
+
+.teacher4 {
+    left: 369px;
+    top: 2560px;
+    z-index: -1;
+}
+
+.teacher5 {
+left: 160px;
+top: 4350px;
+z-index: -1;
+}
+/* End */
+
+    /* Card */
+    #card-section {
+        margin-bottom: 120px;
+    }
+
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #card-section h1 {
+        margin: 100px;
+    }
+
+    /* Bar info */
+    .barInfo {
+        width: 216px;
+        height: 469px;
+        margin-top: -50px;
+    }
+
+    .barInfo .line {
+        width: 60px;
+        height: 3px;
+        margin-left: 40px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .barInfo img .barInfo .info-mobile {
+        display: flex;
+    }
+
+    /* End */
+
+    /* Daftar Footer */
+    .daftar-footer {
+        height: auto;
+    }
+
+    .daftar-footer .mobile {
+        flex-direction: column;
+    }
+
+    .daftar-footer .mobile h3 {
+        font-size: 18px;
+        margin-bottom: 26px;
+    }
+
+    .daftar-footer img {
+        display: none;
+    }
+    /* End */
+
+    /* Alamat */
+    .alamat {
+        padding: 25px;
+    }
+
+    .alamat img {
+        width: 54px;
+    }
+
+    .alamat h3 {
+        font-size: 22px;
+    }
+    .alamat .mobile {
+        font-size: 12px;
+    }
+
+    .alamat h5 {
+        font-size: 18px;
+    }
+
+    .alamat ul li a {
+        font-size: 14px;
+    }
+
+    .alamat .CTA-page {
+        display: flex;
+        justify-content: space-between;
+        padding: 25px;
+        margin-top: 0;
+    }
+    /* End */
+
+    /* Footer */
+
+    footer {
+        height: auto;
+    }
+    footer p {
+        font-size: 10px;
+    }
+    footer .social-media {
+        margin-left: 0;
+    }
+    /* End */
+
+}
+
+/* End */
+
+/* End */
